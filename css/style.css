@@ -333,7 +333,7 @@
     cursor: pointer;
     position: absolute;
     right: 26px;
-    padding-top: 4rem;
+    padding-top: 1rem;
   }
   .overlay .overlay-content .overlay-close:hover {
     opacity: .8;
@@ -371,7 +371,6 @@
     border-color: #fff;
   }
   .overlay .overlay-content .signup-form .submit-btn {
-    margin-left: 1rem;
     width: 250px;
   }
   .overlay.open {
