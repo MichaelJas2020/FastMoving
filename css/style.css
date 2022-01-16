@@ -117,7 +117,7 @@
     }
       .hero-title {
     z-index: 107;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     color: #fff;
     padding-top: 9rem;
@@ -282,7 +282,7 @@
   }
   
   .popup-trigger {
-    width: 375px;
+    width: 271px;
     margin: auto;
     position: absolute;
     top: 0;
