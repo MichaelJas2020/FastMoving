@@ -371,7 +371,7 @@
     border-color: #fff;
   }
   .overlay .overlay-content .signup-form .submit-btn {
-    margin-left: 7rem;
+    margin-left: 1rem;
     width: 250px;
   }
   .overlay.open {
@@ -394,5 +394,3 @@
         
     }
   }
-  
-
