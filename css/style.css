@@ -107,6 +107,34 @@
   #css { background-color: #002561; }
   #javascript { background-color: #333; }
 
+  .float-container {
+    padding: 20px;
+}
+
+  .float-child1 {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}  
+
+.float-child2 {
+  width: 50%;
+  float: left;
+  padding: 20px;
+}  
+
+.footer-map-header {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-body {
+  font-size: 1.25rem;
+}
+
+
+
+
   @media (max-width: 1548px) {
       .hero-title {
     font-size: 3rem;
@@ -142,6 +170,8 @@
     
   }
   }
+ 
+  
   
   @media (max-width: 825px) {
     .navbar {
@@ -215,6 +245,21 @@
       transform: translateY(-3px) rotate(-45deg);
       /* transform: translateY(-3px) scale(0.75) rotate(-45deg); */
     }
+
+    .wrapper {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .float-child1 {
+      width:100%;
+      float:right;
+      } 
+
+    .float-child2 {
+        width:100%;
+        float:right;
+        } 
   }
 
   
