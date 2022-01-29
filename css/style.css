@@ -107,11 +107,11 @@
   #css { background-color: #002561; }
   #javascript { background-color: #333; }
 
-  .float-container {
+.float-container {
     padding: 20px;
 }
 
-  .float-child1 {
+.float-child1 {
     width: 50%;
     float: left;
     padding: 20px;
@@ -453,13 +453,22 @@
   
   
   .footer-map-header {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    margin-bottom: 0.1rem;
   }
   
   .footer-body {
-    font-size: 1rem;
+    font-size: 12px;
   }
 
- 
+  .wrapper {
+    display: flex;
+    flex-direction: column-reverse;
   }
+
+  .float-container {
+    padding: 0px;
+}
+
+  
+}
