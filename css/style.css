@@ -86,7 +86,7 @@
     font-size: 4rem;
     text-align: center;
     color: #fff;
-    padding-top: 14rem;
+    padding-top: 11rem;
   }
   .homepage-hero-subtitle {
     font-size: 2rem;
@@ -106,6 +106,18 @@
   #html { background-color: #e34f26; }
   #css { background-color: #002561; }
   #javascript { background-color: #333; }
+
+  @media (max-width: 1548px) {
+      .hero-title {
+    font-size: 3rem;
+    
+  }
+  .homepage-hero-subtitle {
+    font-size: 1.5rem;
+    
+    
+  }
+  }
   
   @media (max-width: 991px) {
     .navbar ul {
